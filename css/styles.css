@@ -439,7 +439,7 @@ body {
         color: #434455;
     }
 
-/* Footer page */
+/* FOOTER PAGE */
 
     .footer-page {
         background-color: #2e2f42;
@@ -517,4 +517,101 @@ body {
 
     .social-networks-icon {
         fill: #f4f4fd;
+    }
+
+    /* Last third container in this footer */
+
+    .subscribe-container {
+        margin-left: 80px;
+    }
+
+    .subscribe-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #ffffff;
+        margin-bottom: 16px;
+    }
+
+    
+    .subscribe-input {
+        background-color: #2E2F42;
+        flex-shrink: 0;
+        border-radius: 4px;
+        border: 1px solid #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 264px;
+        height: 40px;
+        margin-right: 24px;
+    }
+
+    
+
+    .subscribe-button {
+        display: inline-flex;
+        margin: 0 24px;
+        padding: 8px 24px;
+        align-items: center;
+        gap: 16px;
+        border: none;
+        border-radius: 4px;
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        width: 165px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+
+
+    /* FORM WINDOW */
+
+    input {
+        font-family: inherit;
+    }
+
+    .contacts-form {
+        width: 408px;
+        height: 584px;
+        flex-shrink: 0;
+        border: 1px solid #a3a2a2;
+        border-radius: 4px;
+        background-color: var(--DAIRY, #FCFCFC);
+        box-shadow: 0 10px 10px 0 #cccccc;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .contacts-form-button-wrapper {
+        display: flex;
+        justify-content: center;
+        padding: 16px 32px;
+        align-items: flex-start;
+        gap: 10px;
+        border-radius: 4px;
+        background-color: var(--IRIS, #4D5AE5);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    .contacts-form-button {
+        background-color: #4D5AE5;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: auto;
+        padding: 0;
     }
