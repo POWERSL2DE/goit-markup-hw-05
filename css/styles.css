@@ -695,8 +695,7 @@ body {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .input-svg:focus,
-    .input-svg:hover {
+    .input-svg:focus {
         fill: #4D5AE5;
     }
 
@@ -750,7 +749,7 @@ body {
         fill: transparent;
     }
 
-    .contacts-form input[type="checkbox"]:checked + .label-span {
+    .input[type="checkbox"]:checked + .label-span {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
