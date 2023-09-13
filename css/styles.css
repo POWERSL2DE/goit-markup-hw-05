@@ -641,7 +641,7 @@ body {
     }
 
     .close-icon {
-        fill: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .modal-window-text {
@@ -687,7 +687,7 @@ body {
         border-color: #4D5AE5;
     }
 
-    .input.svg {
+    .input-svg {
         position: absolute;
         left: 16px;
         top: 50%;
@@ -695,8 +695,8 @@ body {
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .input.svg:focus,
-    .input.svg:hover {
+    .input-svg:focus,
+    .input-svg:hover {
         fill: #4D5AE5;
     }
 
