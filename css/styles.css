@@ -749,7 +749,7 @@ body {
         fill: transparent;
     }
 
-    .input[type="checkbox"]:checked + .checkbox-label > .label-span {
+    .input-visually-hidden:checked + .checkbox-label > .label-span {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
